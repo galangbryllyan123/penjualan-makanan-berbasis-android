@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="center">140dp</dimen>
+    <dimen name="logo">60dp</dimen>
+    <dimen name="btnSign">520dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+</resources>

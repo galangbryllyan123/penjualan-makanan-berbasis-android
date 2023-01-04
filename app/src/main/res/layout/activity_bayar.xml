@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BayarActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/success" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Beli Lagi"
+        android:textColor="@color/white"
+        android:background="@drawable/btncancel"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="30dp"
+        android:onClick="beli"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_logout"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/button"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white"
+        android:text="LOG OUT"
+        android:onClick="logout"/>
+
+
+</RelativeLayout>

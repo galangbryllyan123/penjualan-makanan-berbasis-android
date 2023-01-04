@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Update Name &amp; Password"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/logo"
+        app:srcCompat="@drawable/logowarna" />
+
+    <EditText
+        android:id="@+id/etFullname"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:textSize="18dp"
+        android:textColor="#676060"
+        android:inputType="textPersonName"
+        android:textColorHint="#676060"
+        android:paddingLeft="16dp"
+        android:background="@drawable/bg_rectangle_edittext"
+        android:hint="Full Name" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/etFullname"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textSize="18dp"
+        android:inputType="textPassword"
+        android:paddingLeft="16dp"
+        android:textColorHint="#676060"
+        android:textColor="#676060"
+        android:background="@drawable/bg_rectangle_edittext"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/etRePassword"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/etPassword"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textSize="18dp"
+        android:inputType="textPassword"
+        android:paddingLeft="16dp"
+        android:textColorHint="#676060"
+        android:textColor="#676060"
+        android:background="@drawable/bg_rectangle_edittext"
+        android:hint="Confirm Password" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/etRePassword"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:text="Update"
+        android:background="@drawable/bg_rectangle_button"
+        android:onClick="btnUpdate"/>
+
+</RelativeLayout>

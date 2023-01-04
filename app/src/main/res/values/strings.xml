@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">parfrum</string>
+    <string name="welcome">seno</string>
+    <string name="title_placeholder">Title</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+    <string name="cemilan_label">News</string>
+    <string name="cemilan_image">cemilan Image</string>
+
+    <string-array name="detail_cemilan">
+        <item>parfrum wangnitahan lama</item>
+        <item>parfrum wangni waduhai</item>
+        <item>parfrum khas mana gatau dah yang penting beli rasanya enak kok :)</item>
+        <item>parfrum aroma yang wangi khas melati</item>
+        <item>parfrum aroma yang jos</item>
+        <item>parfrum yang manis untuk cowok</item>
+    </string-array>
+
+
+    <string-array name="cemilan_titles">
+        <item>parfrum</item>
+        <item>parfrum</item>
+        <item>parfum</item>
+        <item>parfum</item>
+        <item>parfum</item>
+        <item>eau de parfum</item>
+    </string-array>
+
+    <string-array name="cemilan_harga">
+        <item>15000</item>
+        <item>12500</item>
+        <item>18500</item>
+        <item>14000</item>
+        <item>17000</item>
+        <item>16500</item>
+
+    </string-array>
+
+    <array name="cemilan_images">
+        <item>@drawable/parfrum</item>
+        <item>@drawable/parfrum1</item>
+        <item>@drawable/parfrum2</item>
+        <item>@drawable/parfrum3</item>
+        <item>@drawable/parfrum4</item>
+        <item>@drawable/baccbdd9a3c3ecfee606d8977cf87366</item>
+
+    </array>
+
+</resources>
